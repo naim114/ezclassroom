@@ -1,0 +1,12 @@
+{
+    "strict": {
+        "text-font-family": "PTSans-Regular",
+        "text-heading-1-font-family": "PTSans-Bold",
+        "text-heading-2-font-family": "PTSans-Bold",
+        "text-subtitle-1-font-family": "PTSans-BoldItalic",
+        "text-subtitle-2-font-family": "PTSans-Italic",
+        "text-paragraph-1-font-family": "PTSans-Regular",
+        "text-paragraph-2-font-family": "PTSans-Italic",
+        "text-label-font-family": "PTSans-Regular"
+    }
+}
