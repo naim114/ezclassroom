@@ -59,7 +59,75 @@ export default function FeesScreen({ navigation }) {
                 </Text>
                 <ScrollView>
                     <ExtraMultiRoleButtonTile
-                        title='Fee #1 Fee #1 Fee #1 Fee #1 Fee #1 Fee #1'
+                        title='Fee #1'
+                        modalTitle={'Remove Fee?'}
+                        deleteButtonText={'Remove Fee'}
+                        onPressCard={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Fee');
+                        }}
+                        onPressShare={() => {
+                            navigation.navigate('share.fees')
+                        }}
+                    />
+                    <ExtraMultiRoleButtonTile
+                        title='Fee #2'
+                        modalTitle={'Remove Fee?'}
+                        deleteButtonText={'Remove Fee'}
+                        onPressCard={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Fee');
+                        }}
+                        onPressShare={() => {
+                            navigation.navigate('share.fees')
+                        }}
+                    />
+                    <ExtraMultiRoleButtonTile
+                        title='Fee #3'
+                        modalTitle={'Remove Fee?'}
+                        deleteButtonText={'Remove Fee'}
+                        onPressCard={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Fee');
+                        }}
+                        onPressShare={() => {
+                            navigation.navigate('share.fees')
+                        }}
+                    />
+                    <ExtraMultiRoleButtonTile
+                        title='Fee #4'
+                        modalTitle={'Remove Fee?'}
+                        deleteButtonText={'Remove Fee'}
+                        onPressCard={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.fees');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Fee');
+                        }}
+                        onPressShare={() => {
+                            navigation.navigate('share.fees')
+                        }}
+                    />
+                    <ExtraMultiRoleButtonTile
+                        title='Fee #5'
                         modalTitle={'Remove Fee?'}
                         deleteButtonText={'Remove Fee'}
                         onPressCard={() => {

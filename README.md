@@ -1,2 +1,2 @@
 # ezclassroom
-React Native apps - student fee management
+Student Fee Management Apps - Manage your class with ease

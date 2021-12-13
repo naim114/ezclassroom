@@ -72,6 +72,34 @@ export default function StudentsScreen({ navigation }) {
                             console.log('Remove Student');
                         }}
                     />
+                    <MultiRoleButtonTile
+                        title='Student #2'
+                        modalTitle={'Remove Student?'}
+                        deleteButtonText={'Remove Student'}
+                        onPressCard={() => {
+                            navigation.navigate('fee.students');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.students');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Student');
+                        }}
+                    />
+                    <MultiRoleButtonTile
+                        title='Student #3'
+                        modalTitle={'Remove Student?'}
+                        deleteButtonText={'Remove Student'}
+                        onPressCard={() => {
+                            navigation.navigate('fee.students');
+                        }}
+                        onPressEdit={() => {
+                            navigation.navigate('edit.students');
+                        }}
+                        onPressRemove={() => {
+                            console.log('Remove Student');
+                        }}
+                    />
                 </ScrollView>
             </Layout>
         </SafeAreaView>

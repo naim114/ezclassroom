@@ -29,54 +29,6 @@ function NotificationScreen() {
                         title="Notification Title #3"
                         subtitle="Notification Subtitle #3"
                     />
-                    <NotificationTile
-                        title="Notification Title #1"
-                        subtitle="Notification Subtitle #1"
-                    />
-                    <NotificationTile
-                        title="Notification Title #2"
-                        subtitle="Notification Subtitle #2"
-                    />
-                    <NotificationTile
-                        title="Notification Title #3"
-                        subtitle="Notification Subtitle #3"
-                    />
-                    <NotificationTile
-                        title="Notification Title #1"
-                        subtitle="Notification Subtitle #1"
-                    />
-                    <NotificationTile
-                        title="Notification Title #2"
-                        subtitle="Notification Subtitle #2"
-                    />
-                    <NotificationTile
-                        title="Notification Title #3"
-                        subtitle="Notification Subtitle #3"
-                    />
-                    <NotificationTile
-                        title="Notification Title #1"
-                        subtitle="Notification Subtitle #1"
-                    />
-                    <NotificationTile
-                        title="Notification Title #2"
-                        subtitle="Notification Subtitle #2"
-                    />
-                    <NotificationTile
-                        title="Notification Title #3"
-                        subtitle="Notification Subtitle #3"
-                    />
-                    <NotificationTile
-                        title="Notification Title #1"
-                        subtitle="Notification Subtitle #1"
-                    />
-                    <NotificationTile
-                        title="Notification Title #2"
-                        subtitle="Notification Subtitle #2"
-                    />
-                    <NotificationTile
-                        title="Notification Title #3"
-                        subtitle="Notification Subtitle #3"
-                    />
                     {/* foreach here */}
                 </ScrollView>
             </Layout>
